@@ -1,27 +1,39 @@
-Hack The Box Writeups
+# Hack The Box Writeups
 
-Welcome to my Hack The Box learning repository!
+Welcome to my Hack The Box (HTB) cybersecurity learning repository.
 
-About This Repository
+I'm a Cyber & Network Security student developing practical skills in network enumeration, Linux, and penetration-testing fundamentals through authorised cybersecurity labs.
 
-This repository contains my cybersecurity lab notes, learning progress, and technical skills developed through authorised Hack The Box exercises.
+## About This Repository
 
-Skills I Am Learning
+This repository documents my learning journey through Hack The Box labs. Each writeup focuses on technical observations, tools used, lessons learned, and security concepts.
 
-Linux fundamentals
+## Skills & Tools
 
-Networking
+- **Network enumeration:** Nmap
+- **Networking:** TCP/IP, ports, and services
+- **Remote access:** Telnet and secure remote-access concepts
+- **Linux:** Command-line navigation and file operations
+- **Documentation:** GitHub and Markdown
 
-Enumeration
+## Completed Labs
 
-Basic penetration testing
+| Machine | Difficulty | Key Skills |
+|---|---|---|
+| Meow | Very Easy | Nmap, Telnet, Linux fundamentals |
 
-Documentation and reporting
+## Learning Objectives
 
-Writeups
+- Understand network services and exposed ports.
+- Develop Linux command-line skills.
+- Recognise common security weaknesses.
+- Practise documenting technical findings clearly.
+- Build a portfolio of authorised cybersecurity lab work.
 
-My lab writeups will be added here as I progress through Hack The Box.
+## Disclaimer
 
-Disclaimer
+All activities are conducted in authorised lab environments for educational purposes. Flags, credentials, and restricted walkthrough content are not published in this repository.
 
-All activities are performed in authorised lab environments for educational purposes.
+## Progress
+
+This repository will grow as I complete more labs and develop my cybersecurity skills.
