@@ -1,9 +1,9 @@
 # Hack The Box Starting Point
 
 ## Machine Information
-- Machine name:
-- Difficulty:
-- Date completed:
+- Machine name: Meow
+- Difficulty: Very Easy
+- Date completed: In progress
 
 ## Objective
 Describe what this lab teaches.
