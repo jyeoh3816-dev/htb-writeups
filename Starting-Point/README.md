@@ -44,6 +44,22 @@ Security relevance: Telnet does not encrypt session traffic, so credentials and 
 
 Learning point: Port scanning helps identify exposed services and potential security risks.
 
+### Nmap Results
+
+| Port | Protocol | State | Service | Version |
+|---|---|---|---|---|
+| 23 | TCP | Open | Telnet | Linux telnetd |
+
+**Scan summary**
+- **Tool:** Nmap 7.95
+- **Scan option:** `-sV`
+- **Result:** One open TCP port was identified among the 1,000 default scanned ports.
+- **Security observation:** Telnet does not encrypt session traffic, unlike SSH.
+
+**Analysis**
+
+The scan identified Telnet as an exposed remote-access service. This finding helped guide further investigation during the authorised lab. An open port alone does not establish a vulnerability; the security impact depends on the service configuration and authentication controls.
+
 
 
 ## Findings
