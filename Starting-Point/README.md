@@ -4,6 +4,8 @@
 - Machine name: Meow
 - Difficulty: Very Easy
 - Date completed: In progress
+- Machine status: Started
+- Target IP: 10.129.96.106
 
 ## Objective
 Describe what this lab teaches.
