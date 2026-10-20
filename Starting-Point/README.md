@@ -3,7 +3,7 @@
 ## Machine Information
 - Machine name: Meow
 - Difficulty: Very Easy
-- Date completed: In progress
+- Date completed: 2026-10-20
 - Machine status: Started
 - Target IP: 10.129.96.175
 
@@ -47,7 +47,27 @@ Learning point: Port scanning helps identify exposed services and potential secu
 
 
 ## Findings
-Summarise your observations and learning points.
+Access and Flag Retrieval
+
+Initial access: Telnet on TCP port 23
+
+User account: root
+
+Privilege level: Root
+
+Flag location: /root/flag.txt
+
+Flag submission: Accepted by Hack The Box
+
+Key learning: Enumeration helps identify exposed services. Telnet provides remote terminal access but does not encrypt session traffic.
+
+Reflection: I practised Nmap service detection, Telnet connectivity, Linux navigation, and documenting findings in Markdown.
 
 ## Lessons Learned
-Write down what you learned from this lab.
+Use Nmap to identify open ports and running services.
+
+Understand the security risks of unencrypted protocols such as Telnet.
+
+Practise Linux commands such as whoami, cd, ls, and cat.
+
+Record findings clearly and never publish flags, credentials, or other restricted information.
