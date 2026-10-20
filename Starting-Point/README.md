@@ -24,7 +24,6 @@ Result: Received replies from the Meow target.
 Learning point: The AttackBox can communicate with the target over the network.
 Nmap Service Scan
 
-
 Tool: Nmap 7.95
 
 Command: nmap -sV 10.129.96.175
@@ -88,3 +87,31 @@ Understand the security risks of unencrypted protocols such as Telnet.
 Practise Linux commands such as whoami, cd, ls, and cat.
 
 Record findings clearly and never publish flags, credentials, or other restricted information.
+
+## Methodology
+
+### 1. Connectivity Verification
+Used `ping` to check whether the assigned target responded over the network.
+
+### 2. Service Enumeration
+Used Nmap with service-version detection (`-sV`) to identify exposed TCP services.
+
+### 3. Service Investigation
+Investigated the Telnet service identified on TCP port 23, following the authorised HTB lab instructions.
+
+### 4. Linux Exploration
+Used basic Linux commands to identify the current account, navigate directories, and inspect the target file.
+
+### 5. Objective Verification
+Retrieved the lab flag and confirmed that Hack The Box accepted the submission.
+
+## Security Takeaways
+
+- Exposed services should be reviewed and secured appropriately.
+- Telnet does not encrypt communication, so secure alternatives such as SSH are generally preferred.
+- Access control and authentication are essential for protecting privileged accounts.
+- Clear documentation makes technical findings easier to review and reproduce.
+
+## Ethical Considerations
+
+All testing was performed against the assigned Hack The Box lab machine. The techniques documented here are intended for authorised security testing and education.
