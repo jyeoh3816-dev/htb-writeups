@@ -11,12 +11,14 @@ This repository documents my hands-on learning journey, technical observations, 
 
 ---
 
+
 ## Hack The Box Progress
 
 | Machine | Difficulty | Operating System | Key Skills | Status | Writeup |
 |---|---|---|---|---|---|
-| Meow | Very Easy | Linux | Nmap, Telnet, Linux Fundamentals | Completed | [View Writeup](Starting-Point/README.md) |
+| Meow | Very Easy | Linux | Nmap, Telnet, Linux Fundamentals | Completed | [View Writeup](Starting-Point/Meow.md) |
 | Fawn | Very Easy | Linux | Nmap, FTP, Network Security | In Progress | [View Writeup](Starting-Point/Fawn.md) |
+
 
 *This table will be updated as I complete more HTB machines.*
 
